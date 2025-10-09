@@ -18,7 +18,41 @@ h2{
      
 }
 
+/* Configurações do menu nav*/
 
 nav#menu{
-    background-color: #fffefc;
+
+    display:block;
+
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position:absolute;
+    top: -15px;
+    left: 300px;
+
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 5px;
+    transition: background-color 1s;
+    
+}
+
+nav#menu li:hover{
+    background-color: #b6e0de;
+}
+
+nav#menu a{
+    color: #2B4E72;
+    text-decoration: none;
+}
+
+nav h1{
+    padding: 5px;
+    width: 250px;
 }
