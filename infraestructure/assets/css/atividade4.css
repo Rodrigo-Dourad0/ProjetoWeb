@@ -1,8 +1,42 @@
 
+main {
+
+    background-color: #f1f1f0;
+    padding: 3%;
+    margin: 0 10px; 
+}
+
+article {
+    background-color: #ffffff; 
+    padding: 20px;
+    margin: 0;
+    border-radius: 8px;
+    color: #000000; 
+}
+
+
+article h1, article h2, article h3 {
+    border-bottom: 2px solid #aaddff; 
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+article h1 {
+    font-size: 1.8em;
+}
+
+
+article p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    background-color: #f1f1f0;
+}
+
+
+
 .paleta-cores {
     display: flex; 
-    width: 90%;
-    margin: 50px auto; 
+    width: 100%;
+    margin: 40px auto; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .cartao-cor {
@@ -20,13 +54,12 @@
 .info-cor {
     font-size: 0.8em;
     line-height: 1.2;
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 .hex-code {
     font-weight: bold;
 }
-
 
 
 #cor1 { background-color: #2790B0; } 
