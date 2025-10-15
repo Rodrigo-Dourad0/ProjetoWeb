@@ -24,3 +24,22 @@ figure img {
     display: block; 
     margin: 0 auto; 
 }
+
+#menu ul li:last-child {
+    margin-left: auto; 
+}
+
+.botao-login{
+
+    border-color: #d8d8d179;
+    border-style:solid;
+    color: white; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    font-size: small;
+
+}
+
+.botao-login:hover{
+    border-color: #f1f1f0;
+}
