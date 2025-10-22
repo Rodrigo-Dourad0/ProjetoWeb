@@ -11,19 +11,6 @@ body{
 
 }
 
-h1{
-
-    color:#2B4E72 ;
-    background-color: #ffff;
-    
-}
-
-h2{
-
-    color: #2790B0;
-    background-color: #ffff;
-     
-}
 
 footer {
     background-color: #2B4E72; 
@@ -31,41 +18,4 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 10px;
-}
-
-/* Configurações do menu nav*/
-
-nav#menu{
-
-    display:block;
-    
-}
-
-nav {
-    background-color: #2B4E72; 
-    padding: 10px;
-    margin-bottom: 10px; 
-}
-nav h1 {
-
-    display: none; 
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex; 
-    justify-content: center;
-}
-nav a {
-    padding: 0 15px;
-    color: #eee7e7;
-    text-decoration: none;
-}
-
-nav a:hover{
-
-    color: #ffffff;
-    text-shadow: black 0.1em 0.1em 0.2em
-
-
 }

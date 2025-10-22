@@ -9,48 +9,6 @@ main {
 }
 
 
-article {
-    background-color: #2B4E72;
-    padding: 30px;
-    border-radius: 10px;
-    margin-top: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
 
-figure, article p {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 8px;
-    color: #333333;
-    font-size: 1.1em;
-}
-figure img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#menu ul li:last-child {
-    margin-left: auto; 
-}
-
-.botao-login{
-
-    border-color: #d8d8d179;
-    border-style:solid;
-    color: white; 
-    padding: 8px 15px; 
-    border-radius: 5px; 
-    font-size: small;
-
-}
-
-.botao-login:hover{
-    border-color: #f1f1f0;
-}
 
 
